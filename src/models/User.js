@@ -16,7 +16,7 @@ const userSchema = new Schema({
     },
     //un usuario puede tener muchos roles
     roles: [{
-        ref: "Rol",
+        ref: "Role",
         type: Schema.Types.ObjectId
     }]
 }, {
